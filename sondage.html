@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="vont.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>sondage</legend>
+            <p>Authentification/Inscription:</p><br>
+            @Mail: <input type="text" name="mail" id="mail"><br>
+            Mot de pass: <input type="text" name="pass" id="pass"><br>
+            genre:
+            <select name="genre" id="genre">
+                <option value="0">indiquer votre genre</option>
+                <option value="1">homme</option>
+                <option value="2">femme</option>
+            </select><br>
+            <h4>les réseaux sociaux:</h4>
+                N° <h4>Qustion/affirmation </h4><br>
+                <ol>
+                   <li> les information partagées sur les réseaux sociaux sont faible</li> oui<input type="radio" name="s" id="oui">non<input type="radio" name="s" id="non">sans avis<input type="radio" name="s" id="sans"><br>
+                   <li> L'usage des réseaux sociaux par les enfants doit être sous le contrôle parental</li> oui<input type="radio" name="a" id="oui">non<input type="radio" name="a" id="non">sans avis<input type="radio" name="a" id="sans"><br>
+                   <li>  les réseaux sociaux deviennent une nécessité our le citoyens </li> oui<input type="radio" name="b" id="oui">non<input type="radio" name="b" id="non">sans avis<input type="radio" name="b" id="sans"><br>
+                </ol>
+                <input type="reset" value="annuler">
+                <input type="submit" value="Envoyer" onclick="verif1()">
+
+        </fieldset>
+    </form>
+</body>
+</html>
